@@ -43,6 +43,18 @@ body {
   margin-right: 76px;
 }
 
+.logo-footer {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 17.5px;
+}
+
 .span-studio {
   color: #f4f4fd;
 }
@@ -118,18 +130,26 @@ body {
   font-weight: 400;
   letter-spacing: 0.32px;
   margin-left: auto;
-
 }
 
 .contacts {
+  display: inline-block;
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
 .contact-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .sec-h-three {
@@ -145,6 +165,28 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+}
+
+.sec-h-three-team {
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(---navyblue, #2e2f42);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sec-p-team {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .h-section-thee {
@@ -211,6 +253,7 @@ body {
   color: var(--cloud);
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin: 0;
 }
 
 .section-buttons {
@@ -231,6 +274,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .first-button {
   background-color: var(--cloud);
@@ -302,6 +347,8 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
