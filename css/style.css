@@ -41,7 +41,6 @@ body {
   text-transform: uppercase;
   display: inline-block;
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 
 .span-studio {
@@ -140,14 +139,12 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(---navyblue, #2e2f42);
-  text-align: center;
 }
 .sec-p {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
-  text-align: center;
 }
 
 .h-section-thee {
